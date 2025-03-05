@@ -1,0 +1,145 @@
+#categorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h4 {
+    margin: 30px;
+}
+
+.categoria {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    display: table;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.categoria :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.categoria div {
+    background-repeat: round;
+    border-radius: 10px;
+    color: #FFF;
+    display: table-cell;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    vertical-align: middle;
+}
+
+#plantas {
+    background-image: url('assets/imagenes/categorias/plantas.jpg');
+}
+#arreglos {
+    background-image: url('assets/imagenes/categorias/arreglos.jpg');
+}
+#ramos {
+    background-image: url('assets/imagenes/categorias/ramos.jpg');
+}
+#canastos {
+    background-image: url('assets/imagenes/categorias/canastos.jpg');
+}
+#floreros {
+    background-image: url('assets/imagenes/categorias/floreros.jpg');
+}
+#regalos {
+    background-image: url('assets/imagenes/categorias/regalos.jpg');
+}
+
+#informacion {
+    background-color: #111827;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#informacion h4 {
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.texto {
+    padding: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.texto div {
+    margin-top: 10px;
+}
+
+.texto img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: gray;
+    color: black;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .categoria {
+        width: 45%;
+        height: 150px;
+    }
+    .datos {
+        width: 100%;
+    }
+    .texto img {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .categoria {
+        width: 45%;
+        height: 200px;
+    }
+    .datos {
+        width: 45%;
+    }
+    .texto img {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .categoria {
+        width: 30%;
+        height: 250px;
+    }
+    .datos {
+        width: 30%;
+    }
+    .texto img {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .categoria {
+        width: 30%;
+        height: 250px;
+    }
+    .datos {
+        width: 30%;
+    }
+    .texto img {
+        width: 50%;
+    }
+}
