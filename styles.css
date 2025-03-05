@@ -1,3 +1,21 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f5f4f4;
+}
+
+.carousel-caption { 
+    position: absolute;
+    bottom: 1.25rem;
+    left: 10%;
+    padding-top: 0rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+    top: 15%;  
+    text-shadow: 1px 1px 2px #000;
+    font-size: 1.5rem;
+}
+
 #categorias {
     display: flex;
     flex-direction: row;
