@@ -105,9 +105,17 @@ h4 {
 }
 
 footer {
-    background-color: gray;
     color: black;
-    padding: 10px;
+    padding: 10px 70px 10px 70px;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
