@@ -1,5 +1,5 @@
 body {
-    font-family: fantasy;
+    font-family: Georgia, 'Times New Roman';
     font-style: oblique;
     background-color: #f5f4f4;
 }
@@ -18,6 +18,7 @@ body {
 }
 
 #categorias {
+    background-color: #333e57;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -53,6 +54,12 @@ h4 {
     text-shadow: 1px 1px 2px black;
     vertical-align: middle;
 }
+#categorias h4 {
+    color: white;
+    font-size: 30px; 
+    font-style: normal;
+    font-family: 'snell roundhand';
+}
 
 #plantas {
     background-image: url('assets/imagenes/categorias/plantas.jpg');
@@ -74,7 +81,7 @@ h4 {
 }
 
 #informacion {
-    background-color: #111827;
+    background-color: #333e57;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -106,8 +113,12 @@ h4 {
 }
 
 footer {
+    background-color: #bba7b8;
     color: black;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
 }
 
 footer h4 {
@@ -131,7 +142,6 @@ footer p {
 }
 
 .footer h4 {
-    margin-left: 50px;
     grid-column: span 2;
 }
 
@@ -140,7 +150,7 @@ footer p {
 }
 
 p a {
-    margin: 20px;
+    margin: 10px;
 }
 
 p i {
@@ -192,9 +202,16 @@ p i {
         height: 250px;
     }
     .datos {
-        width: 30%;
+        width: 30%;  font-style: ;
     }
     .texto img {
         width: 50%;
+    }
+}
+
+@media screen  and (max-width: 1024px) {
+    .footer {
+        grid-template-columns: 1fr;
+        grid-row: auto;     
     }
 }
