@@ -1,8 +1,8 @@
 body {
     font-family: Georgia, 'Times New Roman';
     font-style: oblique;
-    background-color: #f5f4f4;
-}
+    background-color: #f8f8f7;
+    background: linear-gradient(#fdfdfd, #dfe6d9,#8e9982, #69755b, #516D31);
 
 .carousel-caption { 
     position: absolute;
@@ -18,7 +18,7 @@ body {
 }
 
 #categorias {
-    background-color: #333e57;
+    /*background-color: #516D31;**/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,7 +81,7 @@ h4 {
 }
 
 #informacion {
-    background-color: #333e57;
+    /*background-color: #516D31;**/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,7 +113,7 @@ h4 {
 }
 
 footer {
-    background-color: #bba7b8;
+    background-color: #f8bea1;
     color: black;
     justify-content: center;
     margin-top: 30px;
